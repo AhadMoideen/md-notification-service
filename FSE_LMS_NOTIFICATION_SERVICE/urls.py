@@ -8,6 +8,5 @@ urlpatterns = [
     path('swagger-ui', schema_view),
     path('admin/', admin.site.urls),
     path('', include('notification_service.urls'))
-    
 
 ]
