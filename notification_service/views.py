@@ -34,7 +34,7 @@ class UserNotificationAPIView(APIView):
         Notification.objects.all().delete()
         return Response({})
 
-class CourseNotificationAPIView(APIView):
+class RestaurantNotificationAPIView(APIView):
     def post(self, request, courseId):
         recipients = request.data['recipients']
         if request.data['type'] == 'NEW_EVAL':

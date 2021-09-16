@@ -1,5 +1,5 @@
 """
-WSGI config for FSE_LMS_NOTIFICATION_SERVICE project.
+WSGI config for md-notification-service project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'FSE_LMS_NOTIFICATION_SERVICE.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'md-notification-service.settings')
 
 application = get_wsgi_application()

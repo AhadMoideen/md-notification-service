@@ -35,7 +35,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'FSE_LMS_NOTIFICATION_SERVICE.urls'
+ROOT_URLCONF = 'md-notification-service.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'FSE_LMS_NOTIFICATION_SERVICE.wsgi.application'
+WSGI_APPLICATION = 'md-notification-service.wsgi.application'
 
 
 # Database
@@ -62,10 +62,10 @@ WSGI_APPLICATION = 'FSE_LMS_NOTIFICATION_SERVICE.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'fse',
-        'USER': 'ahad',
+        'NAME': 'mealdash',
+        'USER': 'admin',
         'PASSWORD': 'ahadmoideen',
-        'HOST': 'fse-mysql.cmu4fer0uvob.ap-south-1.rds.amazonaws.com',
+        'HOST': 'notification-db.c6rnhzbr518v.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
