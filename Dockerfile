@@ -1,7 +1,7 @@
 FROM python:3.7-slim
 MAINTAINER Ahad
-COPY . /docker/FSE_LMS_NOTIFICATION_SERVICE/
-WORKDIR /docker/FSE_LMS_NOTIFICATION_SERVICE/
+COPY . /docker/md-notification-service/
+WORKDIR /docker/md-notification-service/
 RUN set -eux && \
     export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
